@@ -1,0 +1,73 @@
+body{
+    max-width: auto;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(207, 210, 228);
+}
+/*!important - para poder cambiar las cosas con boostrap*/
+
+/*Barra de Navegación*/
+nav ul li {
+display: inline-block;
+list-style-type: none;
+transition: 0.1s all;
+padding: 5px ;
+width: auto;
+ 
+}
+nav ul li:hover{
+    background-color: rgb(10, 73, 209);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(247, 244, 244);
+  background-color:rgb(10, 73, 209) ;
+ 
+}
+/*Noticias*/
+/*Video*/
+.video{
+    width: 50%;
+
+}
+.texto{
+    width: 49%;
+    padding: 8px;
+    vertical-align: top;
+}
+article{
+    padding: 25px;
+    background-color: rgb(235, 235, 235);
+}
+article h2{
+    border-bottom: 1px solid rgb(199, 32, 32);
+}
+.video, .texto{
+    display:inline-block
+}
+.boton{
+    text-align: center;
+    background-color: rgb(248, 250, 255);
+    padding: 10px;
+}
+/*Doble Imagen*/
+.card{
+    margin: 15px;
+    padding: 1%;
+    display:inline-block
+}
+/*Tabla Bolsa*/
+h3,h4{
+    text-align: center;
+    background-color:rgb(10, 73, 209);
+    color: aliceblue;
+}
+footer{
+    background-color:rgb(10, 73, 209);
+    color: aliceblue;
+}
+.coloredes{
+    color: aliceblue;
+}

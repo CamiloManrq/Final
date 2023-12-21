@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Español-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--Link Bootstrap- estructura-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Consultoria Empresarial</title>
+  <link rel="stylesheet" href="./Carpeta CSS/Estilo.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!--Barra de Navegación-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <img src="./Carpeta Imagenes/Logotipo transp.png" alt="" height="150">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-2" aria-current="page" href="#Noticias">Información de Interes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-2 " href="./Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-2" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu fs-2 ">
+              <li><a class="dropdown-item fs-5 nav-link disabled" href="#">Estudios de Mercados</a></li>
+              <li><a class="dropdown-item fs-5 nav-link disabled" href="#">Informes</a></li>
+              <li><a class="dropdown-item fs-5 nav-link disabled" href="#">Apoyo a Gestiones Comerciales</a></li>
+              <li><a class="dropdown-item fs-5 nav-link disabled" href="#">Asesoramiento Legal</a></li>
+              <li><a class="dropdown-item fs-5 nav-link disabled" href="#">Implementacion de RSE</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../calendario/pacientes/add.php">Contactanos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Carrusel-->
+  <section>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Carpeta Imagenes/Carrusel1 (1).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Carpeta Imagenes/Carrusel2 (2).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Carpeta Imagenes/Carrusel4 (4).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Carpeta Imagenes/Carrusel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <hr>
+  <div id="Noticias">
+    <h1>Información de Interes</h1>
+  </div>
+  <hr>
+  <Section class="container-fluid"> <!--Section 1-->
+    <iframe class="video" width="695" height="316" src="https://www.youtube.com/embed/k6up5s2aWx8"
+      title="Control presupuestal" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <article class="texto">
+      <h2>Politica Monetaria</h2>
+      <p>
+        Entrevista a Valeria Caro Gerente del Banco de la Republica y Camilo Manrique Analista Financiero del Banco de
+        la Republica, este video creador por estudiantes de la Corporación Universitaria Iberoamerica, Interpretan el
+        papel de dos funcionarios del Banco de la Republica y una reportara realizando preguntas sobre la politica
+        monetaria para Colombia en el 2023, este ejercicio practico hace que los estudiantes aprendan sobre la
+        improtancia alcanzar y mantener una tasa de inflación baja y estable, y lograr que el producto crezca alrededor
+        de su tendencia de largo plazo, entendiendo la situacion actual del pais y como afecta en la vida cotidiana de
+        los Colombianos
+      </p>
+      <div class="boton">
+        <a href="https://www.banrep.gov.co/es/publicaciones-investigaciones/informe-politica-monetaria/octubre-2023" target="_blank">
+          <div>Mas Información</div>
+        </a>
+      </div>
+    </article>
+  </Section>
+  <section> <!--Section 2-->
+    <div class="card" style="width: 40rem;">
+      <img src="./Carpeta Imagenes/Noticia dos.jpg" class="card-img-top" width="" height="408" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Banco de la República espera un incremento del PIB menor a 1,2% para cierre de 2023</h5>
+        <a href="https://www.larepublica.co/economia/banco-de-la-republica-espera-un-incremento-del-pib-menor-a-1-2-para-cierre-de-2023-3751473"
+          target="_blank" class="btn btn-primary">Mas Información</a>
+      </div>
+    </div>
+    <div class="card " style="width: 40rem;">
+      <img src="./Carpeta Imagenes/economia-se-contrajo.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gobierno aún no decide si aumento en el precio de los peajes se hará en diciembre o en
+          enero</h5>
+        <a href="https://www.elcolombiano.com/negocios/gobierno-aun-no-decide-si-aumento-en-el-precio-de-los-peajes-se-hara-en-diciembre-o-en-enero-LC23129046"
+        target="_blank" class="btn btn-primary">Mas Información</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid"> <!--Section 3-->
+    <h3>Bolsa de Valores de Colombia</h3>
+    <h4>Renta Variable 17/11/2023</h4>
+    <hr>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nemotécnico</th>
+          <th scope="col"> Último precio</th>
+          <th scope="col">Variación porcentual</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Ecopetrol</td>
+          <td>$ 2.480</td>
+          <td>3.55%^</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Cemargo</td>
+          <td>$ 4.985</td>
+          <td>0.30%^</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>PFBColom</td>
+          <td>$ 27.780</td>
+          <td>0.14%^</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="boton">
+      <a href=https://www.bvc.com.co/mercado-local-en-linea?tab=renta-variable_mercado-local target="_blank">
+        <div>Mas Información</div>
+      </a>
+    </div>
+  </section>
+  <hr>
+  <footer class="container-fluid">
+    <div>
+      <a class="coloredes" href="#">Facebook</a> - <!--En el # se pone el link-->
+      <a class="coloredes" href="#">Twitter</a> -
+      <a class="coloredes" href="#">Instagram</a> -
+      <a class="coloredes" href="#">Correo</a>
+      <address>Derechos reservados, Camilo Manrique.</address>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script> <!--Link Bootstrap animaciones-->
+</body>
+
+</html>
